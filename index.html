@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website for showcasing my projects and skills.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <img src="profile.jpg" alt="Self-portrait" class="profile-pic">
+            <p>Hello! My name is Leandro. I am an electrical engineer in the green energy tech space with additional skills in <span style="color: red">HTML</span>, <span style="color: #F6BE00">CSS</span>, and <span style="color: blue">JavaScript</span>. I aspire to bridge the gap between my work and passion for web development in the future. One day I will be developing the software applications that support engineers in building a sustainable future!</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <a href="https://github.com/lpviray/front-end-job-board" target="_blank">Project 1: Job Board App</a>
+                <img src="job_board_app.png" alt="Screenshot of Job Board App" class="project-image">
+            </div>
+            <div class="project">
+                <a href="https://github.com/lpviray/dynamic-twitter-app" target="_blank">Project 2: Twitter Clone</a>
+                <img src="twitter_clone.png" alt="Screenshot of Twitter Clone" class="project-image">
+            </div>
+            <div class="project">
+                <a href="https://github.com/lpviray/tron-lightcycle-duel?tab=readme-ov-file" target="_blank">Project 3: Tron Lightcycle Duel</a>
+                <img src="tron_lightcycle_duel.png" alt="Screenshot of Tron Lightcycle Duel" class="project-image">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Leandro. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
